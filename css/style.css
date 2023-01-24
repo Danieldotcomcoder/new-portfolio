@@ -101,6 +101,9 @@ button:focus {
     .section_gap_bottom {
       padding-bottom: 80px; } }
 
+.main_title p {
+  font-size: 20px;
+}
 /* Main Title Area css
 ============================================================================================ */
 .main_title {
