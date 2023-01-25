@@ -341,15 +341,20 @@ button:focus {
   display: -ms-flexbox;
   display: flex; }
 
+  .navbar-brand h2 {
+    color: #007bff;
+  }
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
+  background: url(../img/programmer.png) no-repeat;
   background-position: center;
-  background-size: cover; }
+  
+  background-size: 10%;
+  }
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
@@ -2701,7 +2706,6 @@ h6 {
     
   .single_portfolio:hover .icon {
     opacity: 1;
-   
     visibility: visible;
     color:rgb(60, 0, 255);
     text-align: center;
@@ -2961,6 +2965,7 @@ h6 {
     padding-left: 15px;
     padding-right: 15px; }
 
+ 
   .nav {
     padding: 0px 0px; }
 
