@@ -2657,6 +2657,7 @@ h6 {
         color: #000000; }
 
 .single_portfolio {
+  cursor: pointer;
   position: relative; }
   .single_portfolio .overlay {
     -webkit-transition: all 0.4s ease 0s;
@@ -2664,9 +2665,11 @@ h6 {
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
   .single_portfolio .icon {
+    width: 80%;
+    font-size: 35px;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 35%;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -2688,13 +2691,22 @@ h6 {
       transform: rotate(135deg);
       color: #ffffff;
       cursor: pointer; }
+  
+
   .single_portfolio:hover .overlay {
-    background: rgba(77, 87, 222, 0.5); }
+    filter: blur(15px);
+    -webkit-filter: blur(25px);
+     background: rgba(68, 88, 220, 0.85)
+     }
+    
   .single_portfolio:hover .icon {
     opacity: 1;
+   
     visibility: visible;
-    top: 50%;
-    left: 50%; }
+    color:rgb(60, 0, 255);
+    text-align: center;
+
+    }
 
 .portfolio_details_inner .row {
   margin-bottom: 65px; }
