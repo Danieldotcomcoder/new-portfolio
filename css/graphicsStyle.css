@@ -3,3 +3,9 @@ canvas {
     position: absolute;
     background-color: transparent;
 }
+@media only screen and (max-width: 600px)  {
+    canvas {
+      display: none;
+   
+    }
+  }
