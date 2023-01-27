@@ -1,8 +1,15 @@
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 700px)  {
   canvas {
     display: none;
- 
   }
+  
+  .banner_inner {
+    background: url(/img/banner/home-right.png);
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: 30% 20%;
+  }
+
 }
 canvas {
     z-index: 1;

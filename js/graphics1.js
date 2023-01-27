@@ -19,7 +19,7 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize(window.innerWidth - 20 , window.innerHeight );
 renderer.setPixelRatio(window.devicePixelRatio);
 
-const smallobject = new THREE.SphereBufferGeometry(0.1, 35, 20);
+const smallobject = new THREE.SphereGeometry(0.1, 35, 20);
 
 const texture1 = new THREE.TextureLoader().load('/img/img4.jpg');
 const material1 = new THREE.MeshBasicMaterial({ map: texture1 });
