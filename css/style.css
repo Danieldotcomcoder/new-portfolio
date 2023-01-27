@@ -1240,6 +1240,8 @@ button:focus {
   .sample-text-area .title_color {
     margin-bottom: 30px; }
   .sample-text-area p {
+    font-size: 25px;
+    font-style: italic;
     line-height: 26px; }
     .sample-text-area p b {
       font-weight: bold;
