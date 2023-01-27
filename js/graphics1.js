@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import '/css/graphicsStyle.css';
+import image from '/img/img4.jpg'
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
@@ -21,7 +22,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 
 const smallobject = new THREE.SphereGeometry(0.1, 35, 20);
 
-const texture1 = new THREE.TextureLoader().load('/img/img4.jpg');
+const texture1 = new THREE.TextureLoader().load(image);
 const material1 = new THREE.MeshBasicMaterial({ map: texture1 });
 const smallsphere = new THREE.Mesh(smallobject, material1);
 smallsphere.position.setX(2);
