@@ -4145,6 +4145,7 @@ h6 {
 .skillimage img {
   width: 70px;
   height: 70px;
+  margin-top: 5%;
 }
 
 .desktopsize li {
@@ -4154,4 +4155,5 @@ h6 {
 .desktopsize {
   display: grid;
   grid-template-columns: 15% 15% 15%;
+  row-gap: 1%;
 }
