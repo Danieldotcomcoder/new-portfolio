@@ -3338,6 +3338,8 @@ h6 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
+  text-align: center;
+
 }
 .single_portfolio .icon span {
   font-size: 100px;
@@ -3354,13 +3356,13 @@ h6 {
 .single_portfolio:hover .overlay {
   filter: blur(15px);
   -webkit-filter: blur(25px);
-  background: rgba(68, 88, 220, 0.85);
+  background: rgba(16, 37, 170, 0.85);
 }
 
 .single_portfolio:hover .icon {
   opacity: 1;
   visibility: visible;
-  color: rgb(60, 0, 255);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
