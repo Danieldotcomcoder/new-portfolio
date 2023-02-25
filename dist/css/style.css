@@ -4135,12 +4135,6 @@ h6 {
   color: #854fee;
 }
 
-@media only screen and (max-width: 995px) {
-  .logo {
-    width: 60px;
-    margin-left: 25%;
-  }
-}
 
 .skillimage img {
   image-rendering: auto;
@@ -4175,7 +4169,53 @@ ul li {
   text-align: center;
   width: 90%;
   border: 2px solid transparent;
-  background-color: #9b82cc;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+  radial-gradient(circle at top left, #4458dc, #854fee);
   box-shadow: 10px 10px 10px lightgray;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 995px) {
+  .logo {
+    width: 60px;
+    margin-left: 25%;
+  }
+
+  .skill-list-categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+      
+  }
+  .skillimage img {
+    image-rendering: auto;
+    width: 40px;
+    margin-top: 5px;
+  }
+
+  .h3 {
+    font-size: 20px;
+    color: black;
+  
+  }
+
+  .skill-list-section {
+    margin: auto;
+    align-items: center;
+  }
+
+  .skill-languages-list {
+    text-align: center;
+    width: 90%;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+    radial-gradient(circle at top left, #4458dc, #854fee);
+    box-shadow: 10px 10px 10px lightgray;
+    border-radius: 10px;
+    margin-top: 5%;
+  }
+  
+  .main_title h2 {
+    text-align: center;
+  }
 }
