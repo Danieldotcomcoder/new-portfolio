@@ -4143,17 +4143,40 @@ h6 {
 }
 
 .skillimage img {
-  width: 70px;
-  height: 70px;
-  margin-top: 5%;
+  image-rendering: auto;
+  width: 75px;
+  margin-top: 10px;
 }
 
 .desktopsize li {
   list-style: none;
 }
 
+ul li {
+  list-style: none;
+}
+.skill-list-section {
+  margin-bottom: 15%;
+}
+
 .desktopsize {
   display: grid;
-  grid-template-columns: 15% 15% 15%;
-  row-gap: 1%;
+  grid-template-columns: 30% 30% 30%;
+
+}
+
+.skill-list-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.skill-languages-list {
+  text-align: center;
+  width: 45%;
+  border: 2px solid transparent;
+  background-color: #9b82cc;
+  box-shadow: 10px 10px 10px lightgray;
+  border-radius: 10px;
 }
