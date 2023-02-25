@@ -4150,7 +4150,7 @@ ul li {
   list-style: none;
 }
 .skill-list-section {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 .desktopsize {
@@ -4171,10 +4171,15 @@ ul li {
   border: 2px solid transparent;
   background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
   radial-gradient(circle at top left, #4458dc, #854fee);
-  box-shadow: 10px 10px 10px lightgray;
+  box-shadow: 5px 5px 5px #a787e7;
   border-radius: 10px;
 }
 
+.h3 {
+  font-size: 35px;
+  color: black;
+
+}
 @media only screen and (max-width: 995px) {
   .logo {
     width: 60px;
