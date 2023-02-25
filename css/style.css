@@ -3338,6 +3338,8 @@ h6 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
+  text-align: center;
+
 }
 .single_portfolio .icon span {
   font-size: 100px;
@@ -3354,13 +3356,13 @@ h6 {
 .single_portfolio:hover .overlay {
   filter: blur(15px);
   -webkit-filter: blur(25px);
-  background: rgba(68, 88, 220, 0.85);
+  background: rgba(16, 37, 170, 0.85);
 }
 
 .single_portfolio:hover .icon {
   opacity: 1;
   visibility: visible;
-  color: rgb(60, 0, 255);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -4135,9 +4137,92 @@ h6 {
   color: #854fee;
 }
 
+
+.skillimage img {
+  image-rendering: auto;
+  width: 75px;
+  margin-top: 10px;
+}
+
+.desktopsize li {
+  list-style: none;
+}
+
+ul li {
+  list-style: none;
+}
+.skill-list-section {
+  margin-bottom: 10%;
+}
+
+.desktopsize {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+
+}
+
+.skill-list-categories {
+  display: grid;
+  grid-template-columns: 50% 50%;
+    
+}
+
+.skill-languages-list {
+  text-align: center;
+  width: 90%;
+  border: 2px solid transparent;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+  radial-gradient(circle at top left, #4458dc, #854fee);
+  box-shadow: 5px 5px 5px #a787e7;
+  border-radius: 10px;
+}
+
+.h3 {
+  font-size: 35px;
+  color: black;
+
+}
 @media only screen and (max-width: 995px) {
   .logo {
     width: 60px;
     margin-left: 25%;
+  }
+
+  .skill-list-categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+      
+  }
+  .skillimage img {
+    image-rendering: auto;
+    width: 40px;
+    margin-top: 5px;
+  }
+
+  .h3 {
+    font-size: 20px;
+    color: black;
+  
+  }
+
+  .skill-list-section {
+    margin: auto;
+    align-items: center;
+  }
+
+  .skill-languages-list {
+    text-align: center;
+    width: 90%;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+    radial-gradient(circle at top left, #4458dc, #854fee);
+    box-shadow: 10px 10px 10px lightgray;
+    border-radius: 10px;
+    margin-top: 5%;
+  }
+  
+  .main_title h2 {
+    text-align: center;
   }
 }
