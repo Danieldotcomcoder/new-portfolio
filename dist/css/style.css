@@ -4168,7 +4168,7 @@ ul li {
 .skill-list-categories {
   display: grid;
   grid-template-columns: 50% 50%;
-  
+    
 }
 
 .skill-languages-list {
